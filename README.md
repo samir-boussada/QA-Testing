@@ -31,6 +31,52 @@ This repository consolidates my testing projects into one organized showcase, de
   * **6 High-Quality Defect Tickets:** Documented in standard Jira format with reproduction steps, network payloads, severity vs. priority ratings, and suggested developer fixes.
   * **Test Execution Summary:** Defect density analysis, revenue risk evaluation, and a data-driven release recommendation.
 
+#### Database Architecture & Entity Relationships:
+The application uses a normalized database structure:
+
+```mermaid
+erDiagram
+    ROOMS {
+        int id PK
+        string room_name
+        string type
+        boolean accessible
+        string image
+        string description
+        decimal price_per_night
+    }
+
+    BOOKINGS {
+        int id PK
+        int room_id FK
+        string firstname
+        string lastname
+        boolean deposit_paid
+        date checkin_date
+        date checkout_date
+        decimal total_price
+    }
+
+    ADMIN_USERS {
+        int id PK
+        string username UK
+        string password_hash
+        string role
+    }
+
+    CONTACT_MESSAGES {
+        int id PK
+        string name
+        string email
+        string phone
+        string subject
+        string message_body
+        timestamp created_at
+    }
+
+    ROOMS ||--o{ BOOKINGS : "reserved in"
+```
+
 ---
 
 ###  [02. Enterprise SDET Framework — UI, API & Load Testing](02-sdet-mini-projects-1/)
@@ -66,7 +112,7 @@ This repository consolidates my testing projects into one organized showcase, de
 
 * **QA / SDET Engineer:** Samir Boussada
 * **GitHub Profile:** [@samir-boussada](https://github.com/samir-boussada)
-* **Email:** [boussadasamir15@gmail,com]
+* **Email:** [boussadasamir15@gmail.com]
 * **LinkedIn:** [Https://www.linkedin.com/in/samir-boussada-5bba06113]
 
 Feel free to explore the repository subfolders, inspect the test artifacts and code, or reach out if you would like to discuss quality assurance opportunities!
