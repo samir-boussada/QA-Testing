@@ -22,7 +22,7 @@ This repository consolidates my testing projects into one organized showcase, de
 
 ## 🔍 Detailed Overview of Each Project
 
-### 🏨 [01. Hotel Reservation System — Manual QA Portfolio](01-hotel-booking-manual-qa/)
+### [01. Hotel Reservation System — Manual QA Portfolio](01-hotel-booking-manual-qa/)
 * **Target App:** [Restful Booker Platform (Shady Meadows B&B)](https://automationintesting.online/)
 * **What it demonstrates:**
   * **Master Test Plan (MTP):** Defining testing scope, environments, entry/exit criteria, and risk mitigations.
@@ -33,7 +33,7 @@ This repository consolidates my testing projects into one organized showcase, de
 
 ---
 
-### ⚡ [02. Enterprise SDET Framework — UI, API & Load Testing](02-sdet-mini-projects-1/)
+###  [02. Enterprise SDET Framework — UI, API & Load Testing](02-sdet-mini-projects-1/)
 * **What it demonstrates:**
   * **Robust E2E UI Automation:** Built with **Playwright & TypeScript** using the Page Object Model (POM) design pattern.
   * **Contract & Schema Validation:** Enforcing strict runtime JSON response schemas using **Zod** to catch API breaking changes before production.
@@ -42,7 +42,7 @@ This repository consolidates my testing projects into one organized showcase, de
 
 ---
 
-### 🔬 [03. Microservices Automation & Chaos Engineering](03-sdet-mini-projects-2/)
+###  [03. Microservices Automation & Chaos Engineering](03-sdet-mini-projects-2/)
 * **What it demonstrates:**
   * **Distributed Workflow Testing:** Validating multi-service chains (Auth $\to$ Inventory $\to$ Order $\to$ Payment) across microservice boundaries.
   * **Consumer-Driven Contracts:** Schema enforcement between independent backend services.
@@ -50,7 +50,7 @@ This repository consolidates my testing projects into one organized showcase, de
 
 ---
 
-## 🛠️ Technical Skills & Competencies Matrix
+##  Technical Skills & Competencies Matrix
 
 | Domain | Skills & Technologies |
 | :--- | :--- |
