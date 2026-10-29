@@ -10,7 +10,7 @@ This repository consolidates my testing projects into one organized showcase, de
 
 ---
 
-## 📂 Featured Portfolio Projects
+## Featured Portfolio Projects
 
 | # | Project Name | Focus & Specialty | Core Tools & Techniques | Quick Link |
 | :-: | :--- | :--- | :--- | :---: |
@@ -20,7 +20,7 @@ This repository consolidates my testing projects into one organized showcase, de
 
 ---
 
-## 🔍 Detailed Overview of Each Project
+##  Detailed Overview of Each Project
 
 ### [01. Hotel Reservation System — Manual QA Portfolio](01-hotel-booking-manual-qa/)
 * **Target App:** [Restful Booker Platform (Shady Meadows B&B)](https://automationintesting.online/)
