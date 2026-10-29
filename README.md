@@ -1,4 +1,4 @@
-# 🏆 QA & SDET Engineering Portfolio
+#  QA & SDET Engineering 
 
 ![QA Status](https://img.shields.io/badge/QA%20Portfolio-Production%20Ready-success?style=for-the-badge)
 ![Testing Stack](https://img.shields.io/badge/Stack-Manual%20QA%20%7C%20Playwright%20%7C%20TypeScript%20%7C%20Zod%20%7C%20k6-blue?style=for-the-badge)
